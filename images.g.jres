@@ -19,6 +19,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "barriga1"
     },
+    "image5": {
+        "data": "hwQcAA4AAAAAALsAu7sLAAAAAOvbC9u7vAAAALDru72wzAwAAAC76/zdu8wMAAAAve7/383sDgAAAB3rTr/bywwAAAAdse/LvMsMAAAAHb272//MuwAAAB29uxz7z7wAAAAdvcsc/c+8AAAA273LH83vuwAAANC9yx+x7rsAAADQvfsf0e6+AAAAsL3M3NHsDgAAAAC73LvR6w4AAAAAwNbLHe0OAAAAAIxmwRuxDgAAAACMlhnN7gAAAAAAwGaZsQsAAAAAAABomdHMAAAAAAAAaJbRuwAAAAAAAIyWkb0MAAAAAACAmZmxCwAAAAAAYJmZ2QsAAAAAAADYZrgLAAAAAAAAgG24CwAAAAAAAACICAAAAAAAAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName":  "starship1"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
