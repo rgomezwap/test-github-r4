@@ -150,6 +150,8 @@ namespace myTiles {
     export const tile73 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile74 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile75 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -173,7 +175,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
             case "level1":
-            case "level1":return tiles.createTilemap(hex`1c000b00010203040506000000000000000000000000000000000708090000000a0b0c0c0d0e00000000000000000000000000000f101112131400000c0c0c0c15000000000000000000000000000000161718191a1b00000c0c0c0c1c000000000000000000000000000000004a1d1e1f2021000c0c0c0c2200000000000000000000000000000000000023242526270c0c0c0c28000000000000000000000000000000000000292a2b2c2d0c0c0c0c2e00000000000000000000000000000000000000002f30310c0c0c0c3200000000000000000000000000000000000000333435363738393a3b3c0000000000000000000000000000000000003d3e3f400c0c0c0c0000000000000000000000000000000000004142434445000c0c0c0c000000000000000000000000000000000000464748490000`, img`
+            case "level1":return tiles.createTilemap(hex`1c000b00010203040506000000000000000000000000000000000708090000000a0b0c0c0d0e00000000000000000000000000000f101112131400000c0c0c0c15000000000000000000000000000000161718191a1b00000c0c0c0c1c000000000000000000000000000000004a1d1e1f2021000c0c0c0c2200000000000000000000000000000000000023242526270c0c0c0c28000000000000000000000000000000000000292a2b2c2d0c0c0c0c2e000000000000000000000000000000000000004b2f30310c0c0c0c3200000000000000000000000000000000000000333435363738393a3b3c0000000000000000000000000000000000003d3e3f400c0c0c0c0000000000000000000000000000000000004142434445000c0c0c0c000000000000000000000000000000000000464748490000`, img`
 222222......................
 ............................
 ............................
@@ -185,7 +187,7 @@ namespace myTiles {
 222222......................
 222222......................
 222222......................
-`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile23,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35,myTiles.tile36,myTiles.tile37,myTiles.tile38,myTiles.tile39,myTiles.tile40,myTiles.tile41,myTiles.tile42,myTiles.tile43,myTiles.tile44,myTiles.tile45,myTiles.tile46,myTiles.tile47,myTiles.tile48,myTiles.tile49,myTiles.tile50,myTiles.tile51,myTiles.tile52,myTiles.tile53,myTiles.tile54,myTiles.tile55,myTiles.tile56,myTiles.tile57,myTiles.tile58,myTiles.tile59,myTiles.tile60,myTiles.tile61,myTiles.tile62,myTiles.tile63,myTiles.tile64,myTiles.tile65,myTiles.tile66,myTiles.tile67,myTiles.tile68,myTiles.tile69,myTiles.tile70,myTiles.tile71,myTiles.tile72,myTiles.tile73,myTiles.tile74], TileScale.Sixteen);
+`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile23,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35,myTiles.tile36,myTiles.tile37,myTiles.tile38,myTiles.tile39,myTiles.tile40,myTiles.tile41,myTiles.tile42,myTiles.tile43,myTiles.tile44,myTiles.tile45,myTiles.tile46,myTiles.tile47,myTiles.tile48,myTiles.tile49,myTiles.tile50,myTiles.tile51,myTiles.tile52,myTiles.tile53,myTiles.tile54,myTiles.tile55,myTiles.tile56,myTiles.tile57,myTiles.tile58,myTiles.tile59,myTiles.tile60,myTiles.tile61,myTiles.tile62,myTiles.tile63,myTiles.tile64,myTiles.tile65,myTiles.tile66,myTiles.tile67,myTiles.tile68,myTiles.tile69,myTiles.tile70,myTiles.tile71,myTiles.tile72,myTiles.tile73,myTiles.tile74,myTiles.tile75], TileScale.Sixteen);
         }
         return null;
     })
@@ -341,6 +343,8 @@ namespace myTiles {
             case "tile73":return tile73;
             case "myTile":
             case "tile74":return tile74;
+            case "myTile0":
+            case "tile75":return tile75;
         }
         return null;
     })
